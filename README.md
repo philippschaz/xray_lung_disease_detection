@@ -1,4 +1,3 @@
-README.md
 Viral Pneumonia and COVID-19 Detection from Chest X-Ray Images
 
 Welcome to the repository for our cutting-edge Viral Pneumonia and COVID-19 detection project! This collaborative data science project leverages state-of-the-art classic machine learning (XGboost, SVM) and deep learning techniques, interpretable machine learning models, and GPU-accelerated image processing to classify chest X-ray images with high precision. Here's everything you need to dive into the code, data, and results.
