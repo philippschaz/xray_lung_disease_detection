@@ -5,6 +5,7 @@ Welcome to the repository for our cutting-edge Viral Pneumonia and COVID-19 dete
 Authors: Dr. Philipp Schaz, Dr. Anne Ast and Tanja Schröder
 
 🔗 Repository Structure
+
 app/
 
 The deployment-ready Streamlit application for real-time predictions and visualization.
