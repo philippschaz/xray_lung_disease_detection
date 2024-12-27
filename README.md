@@ -18,7 +18,7 @@ The deployment-ready Streamlit application for real-time predictions and visuali
 
 notebooks/
 
-A collection of Jupyter notebooks documenting the entire modeling lifecycle, from exploratory data analysis (EDA) to training high-performance classic ML and deep learning models. These were developed using Google Colab for large-scale image processing with GPU acceleration.
+A collection of Jupyter notebooks documenting the entire modeling lifecycle, from exploratory data analysis (EDA) to training high-performance classic ML (SVM, XGBoost, Random Forest, LR) and deep learning models. These were developed using Google Colab for large-scale image processing with GPU acceleration.
 
 
 output/
@@ -51,13 +51,10 @@ Models
 
 We explored a variety of deep learning architectures, with the standout performer being:
 
-    ResNet50 Hybrid-SVM:
-        Accuracy: 91%
-        F1-Scores:
-            Normal: 92%
-            Viral Pneumonia: 95%
-            COVID-19: 92%
-        Execution Time: 12 minutes
+        Achieve a 94 % accuracy with the best Transfer Learning model using TensorFlow: 
+            F1-scores of 96 % for COVID 
+            F1-scores of 97 % for Viral Pneumonia 
+            Recall rate of 93 % for COVID
 
 This model strikes a balance between accuracy and computational efficiency, making it suitable for real-world clinical applications.
 
