@@ -1,6 +1,8 @@
 Viral Pneumonia and COVID-19 Detection from Chest X-Ray Images
 
-Welcome to the repository for our cutting-edge Viral Pneumonia and COVID-19 detection project! This collaborative data science project leverages state-of-the-art classic machine learning (XGboost, SVM) and deep learning techniques, interpretable machine learning models, and GPU-accelerated image processing to classify chest X-ray images with high precision. Here's everything you need to dive into the code, data, and results.
+Welcome to the repository for our Viral Pneumonia and COVID-19 detection project! This collaborative data science project leverages state-of-the-art classic machine learning (XGboost, SVM) and deep learning techniques, interpretable machine learning models, and GPU-accelerated image processing to classify chest X-ray images with high precision. Here's everything you need to dive into the code, data, and results.
+
+Authors: Dr. Philipp Schaz, Dr. Anne Ast and Tanja Schröder
 
 🔗 Repository Structure
 app/
@@ -10,7 +12,7 @@ The deployment-ready Streamlit application for real-time predictions and visuali
     master.py: Main entry point for the app.
     Features:
         Upload chest X-ray images.
-        Get predictions for Viral Pneumonia, COVID-19, or Normal.
+        Get predictions for Viral Pneumonia, COVID-19, Lung Opacity and Normal.
         Visualize Grad-CAM heatmaps for interpretability.
 
 notebooks/
